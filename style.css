@@ -374,7 +374,7 @@ section {
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 15%;
+    top: 13%;
     z-index: 992;
     width: 90vw;
     overflow: hidden;
@@ -387,6 +387,18 @@ section {
     letter-spacing: 90%;
     font-size: clamp(2.7rem, 8vw, 8rem );
 }
+
+.middle {
+    position: absolute;
+    top: 60%;
+}
+.middle h3 {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 2rem;
+    color: white;
+}
+
 
 .bottom {
     position: absolute;
@@ -421,6 +433,7 @@ section {
     transition: all 0.2s ease-in-out;
     transform: translateY(-1rem);
 }
+
 
 
 .icon {
